@@ -1,6 +1,7 @@
 import { printError, printResult } from "./output.js";
 import calcDateDiff from "./calcDateDiff.js";
 import { start, stop } from "./countdown.js"
+import { changeSection } from "./changeSection.js";
 
 const form = document.getElementById('calcDate');
 
@@ -38,3 +39,10 @@ playButton.onclick = function (event) {
         start(hours, mins, secs);
     }
 }
+
+const changeSectionButtons = document.querySelectorAll('.changeSectionButton');
+changeSectionButtons.forEach((changeSectionButton) => {
+    changeSectionButton.addEventListener('click', function (event) {
+        changeSection(changeSectionButtons, event.target);
+    })
+});
