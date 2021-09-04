@@ -1,7 +1,8 @@
-import { printError, printResult } from "./output.js";
-import calcDateDiff from "./calcDateDiff.js";
+import { printError, printResult } from "./output.js"
+import calcDateDiff from "./calcDateDiff.js"
 import { start, stop } from "./countdown.js"
-import { changeSection } from "./changeSection.js";
+import { changeSection } from "./changeSection.js"
+import '../css/style.css'
 
 const form = document.getElementById('calcDate');
 
