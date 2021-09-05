@@ -1,6 +1,7 @@
 const { resolve } = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = {
     mode: "development",
@@ -19,6 +20,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
-        new HtmlWebpackPlugin({ template: resolve(__dirname, 'public/index.html'), })
+        new HtmlWebpackPlugin({ template: resolve(__dirname, 'public/index.html'), }),
+        new BundleAnalyzerPlugin()
     ]
 }
