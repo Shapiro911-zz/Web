@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <title>Date Calculator</title>
+<script defer src="main.0b4387fbe64e21c28527.js"></script><link href="main.19e777b8f6b95b722297.css" rel="stylesheet"></head>
+
+<body>
+    <button class="changeSectionButton active">Date Calculator</button>
+    <button class="changeSectionButton">Countdown</button>
+    <div class="section active">
+        <h2>Date Calculator</h2>
+        <form id="calcDate">
+            <label for="dateFrom">
+                First Date:
+                <input type="date" name="dateFrom">
+            </label>
+            <label for="dateTo">
+                Second Date:
+                <input type="date" name="dateTo">
+            </label>
+            <button type="submit">Calculate</button>
+        </form>
+        <p id="output"></p>
+    </div>
+    <div class="section">
+        <h2>Countdown</h2>
+        <div>
+            <input id="hourInput" , type="number">
+            <input id="minInput" , type="number">
+            <input id="secInput" , type="number">
+        </div>
+        <form id="Countdown">
+            <p id="timer"></p>
+            <button id="play">Play</button>
+        </form>
+    </div>
+</body>
+
+</html>

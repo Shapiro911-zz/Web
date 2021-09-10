@@ -1,0 +1,11 @@
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./public/css/style.css ***!
+  \************************************************************************/
+.section {
+    display: none;
+    
+}
+
+.section.active {
+    display: block;
+}

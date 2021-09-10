@@ -1,0 +1,37 @@
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./public/css/style.sass ***!
+  \****************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: red;
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.gallery-img {
+  width: 250px;
+  height: 150px;
+}
+
+h4 {
+  text-align: center;
+}
