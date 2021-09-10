@@ -1,0 +1,38 @@
+[
+    {
+        "src": "items/1.jpg",
+        "title": "Речная мельница"
+    },
+    {
+        "src": "items/2.jpg",
+        "title": "Горный пейзаж"
+    },
+    {
+        "src": "items/3.jpg",
+        "title": "Деревня"
+    },
+    {
+        "src": "items/4.gif",
+        "title": "Котик"
+    },
+    {
+        "src": "items/1.mp3",
+        "title": "Восход"
+    },
+    {
+        "src": "items/2.mp3",
+        "title": "Ручей"
+    },
+    {
+        "src": "items/3.mp3",
+        "title": "Вечерние сверчки"
+    },
+    {
+        "src": "items/1.mp4",
+        "title": "Rick Roll"
+    },
+    {
+        "src": "items/2.mp4",
+        "title": "Море"
+    }
+]
